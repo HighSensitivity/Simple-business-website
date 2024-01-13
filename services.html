@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <link rel="stylesheet" href="css/services.css">
+	 <link rel="stylesheet" href="css/mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald,Quattrocento&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header id="header">
+       <img src="https://i.imgur.com/W2VgqDY.png" class="Logo" alt="Logo">
+
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark"
+        style="background-color: #212529 !important; box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);"
+      >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="fas fa-home"></i> Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">
+                <i class="fas fa-info-circle"></i> About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">
+                <i class="fas fa-shopping-basket"></i> Services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">
+                <i class="fas fa-calendar-alt"></i> Upcoming Events
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">
+                <i class="fas fa-envelope"></i> Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+	
+    <main id="main">
+	
+<div class="services-content">
+        <div class="column column-1">
+            <section>
+                <h2>Service1</h2>
+                <p>Welcome to our club newsletter. We are a community of enthusiasts passionate about our common interests.
+					Welcome to our club newsletter. We are a community of enthusiasts passionate about our common interests.
+				Welcome to our club newsletter. We are a community of enthusiasts passionate about our common interests.
+				</p>
+                  
+			<div class="hidden-content" id="content1">
+			<p>is the hidden content for butto 1</p>
+			<p>is the hidden content for butto 1</p>
+			<p>is the hidden content for butto 1</p>
+		</div>
+
+		<button class="btn btn-primary custom-button" onclick="toggleHiddenContent('content1')">
+		Read More <i class="fas fa-mouse-pointer"></i>
+		</button>
+			</section>
+        </div>
+		
+		        <div class="column column-2">
+            <section>
+                <h2>Service2</h2>
+                <p>Welcome to our club newsletter. We are a community of enthusiasts passionate about our common interests.</p>
+            
+			<div class="hidden-content" id="content2">
+			<p>This is the hidden content for button 1.</p>
+		</div>
+
+		<button class="btn btn-primary custom-button" onclick="toggleHiddenContent('content2')">
+		Read More <i class="fas fa-mouse-pointer"></i>
+		</button>
+			</section>
+        </div>
+		
+		        <div class="column column-3">
+            <section>
+                <h2>Service3</h2>
+                <p>Welcome to our club newsletter. We are a community of enthusiasts passionate about our common interests.</p>
+            
+			<div class="hidden-content" id="content3">
+			<p>This is the hidden content for button 1.</p>
+		</div>
+
+		<button class="btn btn-primary custom-button" onclick="toggleHiddenContent('content3')">
+		Read More <i class="fas fa-mouse-pointer"></i>
+		</button>
+			</section>
+        </div>
+		
+		        <div class="column column-4">
+            <section>
+                <h2>Service4</h2>
+                <p>Welcome to our club newsletter. We are a community of enthusiasts passionate about our common interests.</p>
+            
+			<div class="hidden-content" id="content4">
+			<p>This is the hidden content for button 1.</p>
+		</div>
+
+		<button class="btn btn-primary custom-button" onclick="toggleHiddenContent('content4')">
+		Read More <i class="fas fa-mouse-pointer"></i>
+		</button>
+			</section>
+        </div>
+
+    </main>
+
+    <script src="js/services.js"></script>
+
+    <footer id="footer">
+      <div>
+       
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="https://facebook.com/"
+          role="button"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+       
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="https://twitter.com/"
+          role="button"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ff0000;"
+          href="https://instagram.com/"
+          role="button"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      
+      <div class="footer-text">
+        <p>@Train <i class="fa-regular fa-copyright"></i> 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>

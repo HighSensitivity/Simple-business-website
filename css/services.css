@@ -1,0 +1,26 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+row {
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 30px;
+}
+
+.container, .row {
+  padding-left: 25px;
+  padding-right: 25px;
+}
